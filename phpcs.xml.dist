@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="Wayback Link Fixer Rules">
+  <description>Quality rules for the Wayback Machine Link Fixer plugin project.</description>
+  <rule ref="PSR12"/>
+  <arg name="basepath" value="."/>
+  <arg name="colors"/>
+  <exclude-pattern>vendor/*</exclude-pattern>
+  <file>wayback-link-fixer/src</file>
+  <file>tests</file>
+</ruleset>
